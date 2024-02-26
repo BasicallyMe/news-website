@@ -20,8 +20,9 @@ h4 {
 p,
 span,
 button,
-li {
-  font-family: "Inter Tight Variable", sans-serif;
+li,
+a {
+  font-family: "Inter Variable", sans-serif;
 }
 
 button {
