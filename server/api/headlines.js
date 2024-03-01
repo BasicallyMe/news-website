@@ -1,10 +1,14 @@
 export default defineEventHandler(async (event) => {
   try {
     const response = await fetch(
-      "https://api.currentsapi.services/v1/latest-news",
+      "https://newsapi.org/v2/top-headlines?" +
+        new URLSearchParams({
+          country: "us",
+          category: "general",
+        }),
       {
         headers: {
-          Authorization: process.env.NUXT_CURRENTS_API_KEY,
+          Authorization: process.env.NUXT_NEWS_API_KEY,
         },
       }
     );

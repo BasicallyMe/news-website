@@ -37,12 +37,11 @@
     </div>
     <div class="flex flex-row gap-4 items-center">
       <NuxtLink
-        :active-class="active"
         class="font-medium text-sm"
         href="auth/signin"
         >Sign in</NuxtLink
       >
-      <NuxtLink :active-class="active" class="font-medium text-sm" href="auth/signup"
+      <NuxtLink class="font-medium text-sm" href="auth/signup"
         >Sign up</NuxtLink
       >
     </div>
