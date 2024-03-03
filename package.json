@@ -10,8 +10,6 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@fontsource-variable/inter-tight": "^5.0.19",
-    "@fontsource-variable/lora": "^5.0.14",
     "lucide-vue-next": "^0.338.0",
     "nuxt": "^3.10.3",
     "vue": "^3.4.19",
