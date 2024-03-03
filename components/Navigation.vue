@@ -48,9 +48,7 @@
   </nav>
 </template>
 
-<script setup></script>
-
-<style>
+<style scoped>
 .router-link-active {
   color: rgb(30, 41, 59);
 }

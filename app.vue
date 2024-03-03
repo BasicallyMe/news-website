@@ -5,25 +5,13 @@
   </div>
 </template>
 
-<script setup>
-import "@fontsource-variable/lora";
-import "@fontsource-variable/inter-tight";
-</script>
+<script setup></script>
 
 <style>
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Lora Variable", serif;
-}
+@import url("~/assets/css/satoshi.css");
 
-p,
-span,
-button,
-li,
-a {
-  font-family: "Inter Variable", sans-serif;
+body {
+  font-family: 'Satoshi-Medium', Arial, Helvetica, sans-serif;
 }
 
 button {
